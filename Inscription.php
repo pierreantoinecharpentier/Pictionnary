@@ -15,6 +15,7 @@
         <form class="inscription" action="req_inscription.php" method="post" name="inscription" background-color: #ffff>  
           <!-- c'est quoi les attributs action et method ? "action" definit la page qui va etre appelee, "method" definit le type d'action -->
           <!-- qu'y a-t-il d'autre comme possiblité que post pour l'attribut method ? -->  
+
             <span class="required_notification">* : Champs obligatoires</span>
 
     
@@ -49,7 +50,6 @@
             </div>
 
                 <label for="optionsRadios1">Sexe</label>
-            
             <div class="radio">
                 <label>
                     <input type="radio" name="optionsRadios" id="optionsRadios1" value="option2"> M
@@ -79,10 +79,10 @@
 
             <div class="form-group" style="padding-bottom:20px">
                 <div class="col-md-10">
-                    <input type="range" name="Taille" placeholder="Taille" min="0" max="2.5" step="0.01" oninput="document.getElementById('Taille').textContent=value"/>
+                    <input type="range" name="Taille" placeholder="Taille" min="0" max="2.5" step="0.01" oninput="document.getElementById('lataille').textContent=value"/>
                 </div>
                 <div class="col-md-2">
-                    <label>Taille:<span id="<Taille">1.25</span>m</label>
+                    <label>Taille:<span id="lataille">1.25</span>m</label>
                 </div>
             </div>
 
@@ -100,7 +100,6 @@
                     <!-- ajouter à input l'attribut qui dit que c'est un champs obligatoire -> cf head (link + script) -->  
                     <!-- quelle est la différence entre les attributs name et id ? -> "id" s'applique à un objet unique (il ne peut pas y avoir deux mêmes id dans une page, "classe" peut caractériser plusieurs objets (identiques ou non) -->
                     <!-- c'est lequel qui doit être égal à l'attribut for du label ? -->   
-           
             <!-- ajouter à input l'attribut qui dit que c'est un champs obligatoire -->  
             <!-- ajouter à input l'attribut qui donne une indication grisée (placeholder) -->  
       
